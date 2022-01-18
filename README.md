@@ -1,5 +1,5 @@
 # Alexnet
-Source code of Alexnet written by myself
+An implement of Alexnet
 
 ## using dataset at kaggle:
   https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/overview
