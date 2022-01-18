@@ -1,5 +1,5 @@
 # Alexnet
-An implement of Alexnet
+An implement of Alexnet with pytorch
 
 ## using dataset at kaggle:
   https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/overview
