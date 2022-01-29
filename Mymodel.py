@@ -7,7 +7,7 @@ class AlexNet(nn.Module):
     def __init__(self):
         super(AlexNet, self).__init__()    # should inherit torch.nn.Module
         self.c1 = nn.Conv2d(in_channels=3, out_channels=48, kernel_size=11, stride=4, padding=2)
-        # Conv1: input: RGB 3channels;output: 48channels;1kernel_size 1;stride 11,padding 2
+        # Conv1: input: RGB 3channels;output: 48channels;1kernel_size 11;stride 4,padding 2
         self.ReLU = nn.ReLU()
         # Activation function1
         self.c2 = nn.Conv2d(in_channels=48, out_channels=128, kernel_size=5, stride=1, padding=2)
